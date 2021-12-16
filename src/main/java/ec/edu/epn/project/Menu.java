@@ -78,6 +78,10 @@ public class Menu {
         System.out.println("////////////////////////////////////////////////////////");
     }
 
+    public String[] validarObtenerDatos(String[] datos, boolean isPriceValid){
+        return new String[]{};
+    }
+
     @Override
     public String toString() {
         createDividers();
