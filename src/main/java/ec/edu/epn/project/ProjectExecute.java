@@ -4,5 +4,6 @@ public class ProjectExecute {
     public static void main(String[] args) {
         System.out.println("Santacruz, Santamaría, Velastegui");
         System.out.println("Implementación US1");
+        System.out.println("Implementación US2");
     }
 }
