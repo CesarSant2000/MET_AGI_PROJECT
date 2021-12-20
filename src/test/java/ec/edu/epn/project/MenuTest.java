@@ -14,6 +14,8 @@ public class MenuTest {
         ArrayList<String> expected = new ArrayList<>();
         expected.add("0. Salir");
         expected.add("1. Crear producto");
+        expected.add("2. Actualizar producto");
+        expected.add("2. Eliminar producto");
         ArrayList<String> actual = miMenu.generarListaGerente();
         assertEquals(actual, expected);
     }
